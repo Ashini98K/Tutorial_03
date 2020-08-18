@@ -46,16 +46,16 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public  void add(View view){
-        sum.setText(num1 + "+" + num1 + "=" + "n1+n2");
+        sum.setText(num1 + "+" + num1 + "=" + (n1+n2));
     }
     public  void sub(View view){
-        sum.setText(num1 + "-" + num1 + "=" + "n1-n2");
+        sum.setText(num1 + "-" + num1 + "=" + (n1-n2));
     }
     public  void multi(View view){
-        sum.setText(num1 + "*" + num1 + "=" + "n1*n2");
+        sum.setText(num1 + "*" + num1 + "=" + (n1*n2));
     }
     public  void div(View view){
-        sum.setText(num1 + "/" + num1 + "=" + "n1/n2");
+        sum.setText(num1 + "/" + num1 + "=" + (n1/n2));
     }
 
 }
